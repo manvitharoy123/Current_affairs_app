@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="data.example.edunachal.ui.home.ProfileFragment">
+    <androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgforapp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="data.manu.startup.MainActivity"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+
+
+
+            <View style="@style/proifleDetailsView" />
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/emailImageView"
+                    android:src="@drawable/ic_email"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    android:id="@+id/emailv"
+                    android:text="Email"
+                    android:layout_toRightOf="@id/emailImageView"
+                    style="@style/profileDetailsTextMain" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:text="developer@appsnipp.com"
+                    android:layout_toRightOf="@id/emailImageView"
+                    style="@style/profileDetailsMiniText" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+
+
+            <View style="@style/proifleDetailsView" />
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/logout"
+                style="@style/loginButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:text="Logout"
+                app:initialCornerAngle="27dp"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="4dp" />
+
+            <View style="@style/proifleDetailsView" />
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView >
+
+</FrameLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context="data.example.edunachal.apsc_study">
+
+    <Button
+        android:id="@+id/geo1_ac"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="geography"
+
+        android:textSize="25dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/ap01_ac"
+        android:layout_width="267sp"
+        android:layout_height="76sp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="arunachal special"
+
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <Button
+        android:id="@+id/st01_sc_ac"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:text="science &amp; technology"
+        android:textSize="22sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <Button
+        android:id="@+id/art_ac"
+        android:layout_width="267sp"
+        android:layout_height="76sp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="art &amp; culture"
+
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <Button
+        android:id="@+id/envir_ac"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="environment"
+
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <Button
+        android:id="@+id/econi_ac"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="economics"
+
+        android:textSize="25dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <Button
+        android:id="@+id/history_ac"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="history"
+
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/indianpol_ac"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="indian polity"
+
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

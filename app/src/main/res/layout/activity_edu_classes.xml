@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg2"
+    tools:context="data.example.edunachal.edu_classes">
+
+
+    <Button
+        android:id="@+id/button000_edu"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="GS for APPSC
+"
+
+        android:textSize="23sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <Button
+        android:id="@+id/upscquiz_edu"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:text="csat for appsc"
+
+        android:textSize="25sp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <Button
+        android:id="@+id/studynode_edu"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:text="optional for appsc"
+
+        android:textSize="24dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/essaywriting_edu"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="essay for appsc"
+
+        android:textSize="24dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/ansrrwritingpr_edu"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:text="General english"
+
+        android:textSize="22dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/appBarCurrent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/current_affairs_appbar"/>
+    <com.google.android.material.tabs.TabLayout android:id="@+id/tabLayout" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/appBarCurrent" android:elevation="4dp" app:tabIndicatorColor="#089208" app:tabTextColor="#089208"/>
+    <ProgressBar android:id="@+id/progressBar2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:elevation="4dp" style="?android:attr/progressBarStyle"/>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/viewPager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/tabLayout"/>
+</RelativeLayout>

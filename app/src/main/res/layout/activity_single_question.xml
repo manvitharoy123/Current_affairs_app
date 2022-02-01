@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="data.example.edunachal.activity.SingleQuestionActivity">
+
+    <!-- Actionbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_single_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"/>
+
+    <!-- Question resides at the top -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/text_single_question_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                tools:text="your_name@email.com asks..." />
+
+            <TextView
+                android:id="@+id/text_single_question_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#CC1465"
+                android:textStyle="bold"
+                tools:text="What is your question?" />
+
+            <TextView
+                android:id="@+id/text_single_question_time_stamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#86BF5E"
+                android:textStyle="italic"
+                tools:text="Submitted: 1 Jan 2015" />
+
+            <TextView
+                android:id="@+id/text_single_question_num_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                tools:text="5 answers" />
+
+            <ImageView
+                android:id="@+id/image_single_question_user_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@android:drawable/star_big_on" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <!-- Answers reside below the Question -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_answers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

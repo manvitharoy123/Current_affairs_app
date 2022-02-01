@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Edunachal</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="current_affairs">current affairs</string>
+    <string name="view_uploads">View Uploads</string>
+    <string name="upload">Upload</string>
+    <string name="enter_name_for_pdf">Enter name for Pdf</string>
+    <string name="choose">Choose</string>
+
+    <string name="messageWithLink"><a href="https://us04web.zoom.us/j/2104401963?pwd=VDhYRW1WNm5IcndDTXVJcWdZSkp2dz09">Join here for the live class</a></string>
+    <string name="viewlink"><a href="https://forms.gle/FjzSFmHRnSu1SzDb6">Enroll here for premium content and more!!!</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_answer">Add Answer</string>
+    <string name="button_text_add_answer">Add Answer</string>
+
+    <string name="menu_add_question">Add Question</string>
+    <string name="button_text_add_question">Add Question</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_user_profile">User Profile</string>
+    <string name="title_single_question">Single Question</string>
+</resources>

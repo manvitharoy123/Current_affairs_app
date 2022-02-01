@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context="data.example.edunachal.appsc_mains">
+
+    <Button
+        android:id="@+id/books"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="books/sources"
+
+        android:textSize="32dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <Button
+        android:id="@+id/essay"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="essay strategy"
+
+        android:textSize="32dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/optional"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="optional strategy"
+
+        android:textSize="27dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <Button
+        android:id="@+id/mainsstrategy"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="mains strategy"
+
+        android:textSize="32dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

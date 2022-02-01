@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_margin="10dp"
+        app:cardElevation="15dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/text_answer_string"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#191717"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Here's my response..." />
+
+            <ImageView
+                android:id="@+id/image_answer_user_image"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_answer_string"
+                tools:src="@android:drawable/star_big_on" />
+
+            <TextView
+                android:id="@+id/text_number_of_up_votes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_answer_string"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/image_answer_user_image"
+                android:textColor="#AD1457"
+                android:textStyle="italic"
+                tools:text="30 votes" />
+
+            <ImageButton
+        android:id="@+id/button_up_vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_answer_string"
+        android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+        tools:src="@drawable/ic_mood_black_24dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/darker_gray"/>
+</RelativeLayout>

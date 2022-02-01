@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg2"
+    tools:context=".prelims_01k">
+
+    <Button
+        android:id="@+id/upsyallabus_asc"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="appsc Syllabus"
+
+        android:textSize="32dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161" />
+
+    <Button
+        android:id="@+id/studymatrerial_asc"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="study material"
+
+        android:textSize="32dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/prelimsstregy_asc"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="PRELIMS strategy"
+
+        android:textSize="32dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <Button
+        android:id="@+id/curentafair_asc"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="current affairs"
+
+        android:textSize="32dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <Button
+        android:id="@+id/Quiz_AC"
+        android:layout_width="267dp"
+        android:layout_height="76dp"
+        android:background="@drawable/cu2"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="quiz"
+
+        android:textSize="37dp"
+        app:fontFamily="@font/acme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

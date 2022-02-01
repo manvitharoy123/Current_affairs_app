@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/add_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="@dimen/default_padding"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_margin="10dp"
+        app:cardElevation="15dp"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/field_add_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:id="@+id/text_sample_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/default_padding"
+        android:layout_gravity="center"
+        android:text="Example: What does it feel like to win an Olympic medal?"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

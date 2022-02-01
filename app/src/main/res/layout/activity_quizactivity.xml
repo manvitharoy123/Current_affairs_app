@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/email"
+    android:orientation="horizontal"
+    tools:context="data.example.edunachal.quizactivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="357dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shadow_button_layer_list"
+        android:textColor="#100F0F"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#F8B7D3"
+        android:text="History" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/IndianPolity"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="IndianPolity"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#F39999" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Economics"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Economics"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#90C3FD" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Geography"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Geography"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#ECEB86" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/ScienceandTech"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Science and Tech"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#A9EC7A" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Environment"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Environment"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#ED9F87" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Curre"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="CurrentAffairs"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#95F6EA" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Arunachal"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Arunachal Pradesh"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#70E0EA" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/English"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="English"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#B3A0EC" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Maths"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Maths"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FA9AC3" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Reasoning"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Reasoning"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#F3C198" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/gat"
+            android:layout_width="357dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shadow_button_layer_list"
+            android:text="Daily Questions"
+            android:textColor="#100F0F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="#F8A5C9" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</ScrollView>
